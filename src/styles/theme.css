@@ -1,3 +1,21 @@
 :root {
-    --primary-color: #ff4dff;
+    --gray-50:  #f8fafc; /* Quase branco, ótimo para fundos */
+    --gray-100: #f1f5f9;
+    --gray-200: #e2e8f0; /* Bordas e divisores leves */
+    --gray-300: #cbd5e1;
+    --gray-400: #94a3b8; /* Placeholder e ícones secundários */
+    --gray-500: #64748b;
+    --gray-600: #475569; /* Texto de suporte */
+    --gray-700: #334155;
+    --gray-800: #1e293b; /* Texto principal / Dark mode background */
+    --gray-900: #0f172a; /* Elementos quase pretos */
+    --gray-1000: #080c16; /* Elementos quase pretos */
+
+    --primary-calm: #60a5fa; 
+    --primary-soft: #dbeafe; /* Versão clara para estados de hover ou fundos */
+
+    --text-white-high: #FFFFFF;      /* Títulos e destaques (100% de ênfase) */
+    --text-white-medium: #E2E8F0;    /* Corpo de texto principal (Leitura confortável) */
+    --text-white-low: #94A3B8;       /* Textos secundários, legendas e desativados */
+    --text-white-glass: rgba(255, 255, 255, 0.1); /* Overlay ou linhas sutis */
 }

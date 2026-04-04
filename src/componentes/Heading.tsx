@@ -1,7 +1,7 @@
 import styles from './Heading.module.css';
 
 export const Heading = (props) => {
-    const headingClass = `${styles.heading} ${styles.cyan}`;
+    const headingClass = `${styles.heading}`;
     return (
         <>
             <h1 className={headingClass}>{props.children}</h1>
