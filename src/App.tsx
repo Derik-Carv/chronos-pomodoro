@@ -1,3 +1,5 @@
+import { Heading } from './componentes/Heading';
+
 import './styles/theme.css';
 import './styles/global.css';
 
@@ -6,7 +8,7 @@ export const App = () => {
 
     return (
         <>
-            <h1>Olá Mundo (App)</h1>
+            <Heading />
             <p>Este é o componente App.</p>
         </>
     )
