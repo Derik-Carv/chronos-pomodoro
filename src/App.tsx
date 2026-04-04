@@ -1,6 +1,5 @@
-// PascalCase
-// App
-// ExemploDeComponente
+import './styles/theme.css';
+import './styles/global.css';
 
 export const App = () => {
     console.log('Renderizando App');
