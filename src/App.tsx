@@ -4,11 +4,9 @@ import './styles/theme.css';
 import './styles/global.css';
 
 export const App = () => {
-    console.log('Renderizando App');
-
     return (
         <>
-            <Heading />
+            <Heading>Olá mundo!</Heading>
             <p>Este é o componente App.</p>
         </>
     )
