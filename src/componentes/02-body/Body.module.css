@@ -1,0 +1,53 @@
+.body-task {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.body-task div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.body-task p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.cycles {
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+
+.cycles:hover {
+    cursor: unset;
+    box-shadow: none;
+    filter: unset;
+}
+
+.inTask {
+    background-color: var(--in-task);
+}
+
+.inPause {
+    background-color: var(--in-pause);
+}
+
+.inLongPause {
+    background-color: var(--in-long-pause);
+}
+
+.play {
+    margin-top: 2rem;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.play svg {
+    width: 20px;
+}

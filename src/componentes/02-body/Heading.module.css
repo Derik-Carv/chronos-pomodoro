@@ -1,0 +1,30 @@
+
+
+.heading {
+    font-family: "Montserrat", sans-serif;
+    color: var(--text-white-high);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+    margin: auto;
+}
+
+.timer {
+    font-size: 8rem;
+    font-style: bold;
+}
+
+p {
+    font-size: 0.8rem;
+}
+
+.task {
+    font-size: 1.3rem;
+    width: 200px;
+    height: 30px;
+    background-color: transparent;
+    border-bottom: 1px solid var(--text-home-page);
+    text-align: center;
+}

@@ -1,0 +1,23 @@
+.btnsHeader {
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 25%;
+    background-color: var(--text-home-page);
+}
+
+button:hover {
+    box-shadow: 0 0 15px rgba(46, 213, 115, 0.4); /* Um brilho suave verde */
+    filter: brightness(1.2);
+    cursor: pointer;
+};

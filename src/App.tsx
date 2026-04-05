@@ -1,19 +1,18 @@
-import { Heading } from './componentes/Heading';
+import { Heading } from './componentes/02-body/Heading';
+import { HeaderPrincipal } from './componentes/01-header/Header';
+import { Body } from './componentes/02-body/Body';
+import { Footer } from './componentes/03-footer/Footer';
 
 import './styles/theme.css';
 import './styles/global.css';
-import { Trash2 } from 'lucide-react';
 
 export const App = () => {
     return (
         <>
-            <Heading >
-                Olá mundo!
-                <button>
-                    <Trash2 />
-                </button>
-            </Heading>
-            <p>Este é o componente App.</p>
+            <HeaderPrincipal />
+            <Heading />
+            <Body />
+            <Footer />
         </>
     )
 }

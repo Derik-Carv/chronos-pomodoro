@@ -18,4 +18,11 @@
     --text-white-medium: #E2E8F0;    /* Corpo de texto principal (Leitura confortável) */
     --text-white-low: #94A3B8;       /* Textos secundários, legendas e desativados */
     --text-white-glass: rgba(255, 255, 255, 0.1); /* Overlay ou linhas sutis */
+
+    --text-home-page: #23c56c;
+    --text-border-translucide: #23c56c31;
+
+    --in-task: #f8e434;
+    --in-pause: #3dec8c;
+    --in-long-pause: #0fbcd3;
 }
